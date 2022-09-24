@@ -1,28 +1,27 @@
 //Programa que presenta las operaciones básicas
-//Creado por Wilfrido Morales 
-//Fecha:234-09-2022
-
+//Creado por Charli Nieves 
+//Fecha: 22-09-2022
 #include<iostream>
 using namespace std;
-
 int main()
 {
-	float x,y,s,m,d,r;
+	float WIMT_x,WIMT_y,WIMT_s,WIMT_m,WIMT_d,WIMT_r;
 	//Ingreso de datos
-	cout<<"Ingrese en valor de x=:";
-	cin>>x;
-	cout<<"Ingrese en valor de y=:";
+	cout<<"Ingrese en valor de WIMT_x=:";
+	cin>>WIMT_x;
+	cout<<"Ingrese en valor de WIMT_y=:";
 	//Operaciones 
-	cin>>y;
-	s=x+y;
-	m=x*y;
-	d=x/y;
-	r=x-y;
+	cin>>WIMT_y;
+	WIMT_s=WIMT_x+WIMT_y;
+	WIMT_m=WIMT_x*WIMT_y;
+	WIMT_d=WIMT_x/WIMT_y;
+	WIMT_r=WIMT_x-WIMT_y;
 	//Muestra los resutaldos.
-	cout<<"Las suma de "<<x<<" + "<<y<<" = "<<s<<endl;
-	cout<<"Las multiplicacion de "<<x<<" * "<<y<<" = "<<m<<endl;
-	cout<<"Las division de "<<x<<" / "<<y<<" = "<<d<<endl;
-	cout<<"Las resta de "<<x<<" - "<<y<<" = "<<r<<endl;
-	return 0 ;
-
+	cout<<"Las suma de "<<WIMT_x<<" + "<<WIMT_y<<" = "<<WIMT_s<<endl;
+	cout<<"Las multiplicacion de "<<WIMT_x<<" * "<<WIMT_y<<" = "<<WIMT_m<<endl;
+	cout<<"Las division de "<<WIMT_x<<" / "<<WIMT_y<<" = "<<WIMT_d<<endl;
+	cout<<"Las resta de "<<WIMT_x<<" - "<<WIMT_y<<" = "<<WIMT_r<<endl;
+	return 0;
 }
+
+
