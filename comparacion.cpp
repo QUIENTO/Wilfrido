@@ -1,18 +1,18 @@
-//Creado por Wilfrido Morales
+//Creado por: Charli Nieves
 #include<iostream>
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float WIMT_a,WIMT_b;
+	cout<<"ingrese WIMT_a WIMT_b:"; cin>>WIMT_a>>WIMT_b;
+	if(WIMT_a>WIMT_b)
 	{
-	  cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<WIMT_a<<" es mayor a "<<WIMT_b<<endl;
 
 
 	}else{
 
-	  cout<<b<<" es mayor a "<<a<<endl;
+	  cout<<WIMT_b<<" es mayor a "<<WIMT_a<<endl;
 
 
 	}
